@@ -7,6 +7,8 @@
     <title>Zuri Training Landing Page</title>
     <link rel="stylesheet" href="assets/css/main.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -21,7 +23,7 @@
 
    <!-- toggle -->
    <div class="menu"
-   onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))">
+   onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" data-aos="fade-left" data-aos-duration="1000">
    <svg width="50" height="50" viewBox="0 0 100 100">
      <path class="line line1"
        d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
@@ -70,16 +72,16 @@
         <section class="hero">
 <div class="hero-container">
 <div class="left">
-    <h1>Learn, Build, Grow</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptatem necessitatibus iure quisquam nihil maiores.</p>
+    <h1 data-aos="fade-right" data-aos-duration="1000">Learn, Build, Grow</h1>
+    <p data-aos="fade-right" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptatem necessitatibus iure quisquam nihil maiores.</p>
     <div class="cta-btn">
-        <button class="btn btn-outline btn-pad" type="submit">Explore</button>
-        <button class="btn btn-pri" type="submit">Dashboard</button>
+        <button class="btn btn-outline btn-pad" type="submit" data-aos="fade-up" data-aos-duration="1000">Explore</button>
+        <button class="btn btn-pri" type="submit" data-aos="fade-down" data-aos-duration="1000">Dashboard</button>
     </div>
 </div>
 
 <div class="right">
-    <form action="">
+    <form action="" data-aos="fade-left" data-aos-duration="1000">
         <div class="form-header">
             <p>Want to become a Pro in tech?</p>
         </div>
@@ -118,7 +120,7 @@
     </main>
 
     <section class="content">
-<p>How to start the Zuir x i4g Training</p>
+<p data-aos="fade-down" data-aos-duration="1000">How to start the Zuir x i4g Training</p>
 
 <div class="cards">
 
@@ -166,6 +168,16 @@
     <!-- Js Script -->
 
     <script src="assets/js/app.js"></script>
+
+    <!-- Animation -->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 3000,
+    once: false,
+  });
+</script>
     
 </body>
 </html>
