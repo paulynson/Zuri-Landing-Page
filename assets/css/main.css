@@ -361,5 +361,10 @@ display: block;
         margin: 5px 2px;
     }
 
+    .img-fluid{
+        width: 120px;
+        height: auto;
+    }
+
 
 }
