@@ -383,6 +383,31 @@ text-align: center;
         display: block !important;
     }
 
+    .content{
+        padding: 60px 30px;
+    }
+
+    .card-body{
+        flex-wrap: wrap;
+    }
+
+    .card-body p{
+        flex-direction: column;
+        width: auto;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+    
+    .card{
+        padding: 10px 50px;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+
+    }
+
 
 
     .navbar-nav li, .navbar-nav li a{
@@ -453,6 +478,12 @@ display: block;
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .cards{
+        margin-top: 50px;
+        overflow: auto;
+        white-space: wrap;
     }
 
 
