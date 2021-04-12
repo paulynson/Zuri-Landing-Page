@@ -31,11 +31,6 @@ color: #2B2B2C;
 
 }
 
-/* header{
-    
-    background-color: #fff6f6;
-} */
-
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -119,7 +114,6 @@ color: #2B2B2C;
     margin-bottom: 40px;
 
 }
-
 
 
 .btn-outline{
@@ -298,8 +292,6 @@ margin: 0 10px;
     flex-wrap: wrap;
 }
 
-
-
   .card-body h4{
     font-style: normal;
     font-weight: bold;
@@ -342,26 +334,10 @@ text-align: center;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Mobile View */
 
 @media (max-width: 768px){
-    /* .navbar{
-        
-    } */
-
+  
     .navbar-collapse{
         display: none;
         flex-direction: column;
@@ -405,17 +381,13 @@ text-align: center;
         width: auto;
         flex-wrap: wrap;
         box-sizing: border-box;
-
     }
-
-
 
     .navbar-nav li, .navbar-nav li a{
  margin: 15px 0;
 width: 100%;
 display: block;
     }
-
 
 
     .navbar-nav{
@@ -480,14 +452,55 @@ display: block;
         text-align: center;
     }
 
-    /* .cards{
-    display: grid !important;
-    grid-template-columns: repeat (1fr );
+    .cards{
+    overflow-x:initial;
+    display: flex;
+    white-space:normal;
     margin-top: 50px;
     box-sizing: border-box;
-    white-space: none !important; 
-    flex-direction: column !important;
-    } */
+    }
+
+    .card{
+        border-radius: 2px;
+        justify-content: center;
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+
+    .icon{
+        width: 37.01px;
+        display: flex;
+    height: 37.01px;
+    background: rgba(255, 107, 107, 0.24);
+    border-radius: 11px;  
+    box-sizing: border-box;
+        margin-right: 0px;
+      }
+    
+      .icon img{
+          width: 20px;
+         
+      }
+
+      .card-body h4{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 20px;
+        line-height: 27px;
+        color: #2B2B2C;
+        margin-bottom: 20px;
+      }
+    
+      .card-body p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #383838;
+      }
 
     form{
     background: white;
@@ -499,6 +512,5 @@ display: block;
     clear: both;
     
     }
-
 
 }
