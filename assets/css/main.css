@@ -285,10 +285,9 @@ margin-bottom: 20px;
         flex-direction: column;
         position: absolute;
         width: 100vw;
-        height: 100vh;
         margin-top: 100px;
         box-sizing: border-box;
-        top: 25px;
+        top: 20px;
         text-align: center;
         align-content: center;
         align-items: center;
@@ -352,6 +351,10 @@ display: block;
         justify-content: center;
         align-items: center;
         margin-bottom: 80px;
+    }
+
+    .btn-nav{
+        margin: 5px 0;
     }
 
 
