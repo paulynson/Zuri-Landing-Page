@@ -83,7 +83,6 @@ main{
 .hero{
     margin-top: 200px;
     width: 100%;
-
 }
 
 
@@ -283,7 +282,35 @@ margin-bottom: 20px;
 
     .navbar-collapse{
         display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        margin-top: 100px;
+        box-sizing: border-box;
+        top: 25px;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        left: 0;
+        background-color: #fff;
+        padding: 60px 0;
+        border-bottom: 0.02px solid #ff6b6b;
     }
+
+    .navbar-collapse.active{
+        display: block !important;
+    }
+
+
+
+    .navbar-nav li, .navbar-nav li a{
+ margin: 15px 0;
+width: 100%;
+display: block;
+    }
+
+
 
     .navbar-nav{
         display: flex;
@@ -304,6 +331,27 @@ margin-bottom: 20px;
       main{
         padding: 60px 20px;
         background-color: #fff6f6;
+    }
+
+    /* Hero */
+
+    .hero{
+        margin-top: 80px;
+    }
+
+
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 80px;
     }
 
 
