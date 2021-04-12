@@ -60,8 +60,7 @@ main{
 .btn{
     border-radius: 5px;
     padding: 13px 43px;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    box-sizing: border-box;
     cursor: pointer;
     border: 0;
 }
@@ -351,6 +350,7 @@ display: block;
         justify-content: center;
         align-items: center;
         margin-bottom: 80px;
+        text-align: center;
     }
 
     .btn-nav{
@@ -364,6 +364,12 @@ display: block;
     .img-fluid{
         width: 120px;
         height: auto;
+    }
+
+    .cta-btn{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
 
