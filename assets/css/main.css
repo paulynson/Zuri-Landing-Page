@@ -301,6 +301,10 @@ margin-bottom: 20px;
     display: block;
       }
      
+      main{
+        padding: 60px 20px;
+        background-color: #fff6f6;
+    }
 
 
 }
