@@ -480,10 +480,24 @@ display: block;
         text-align: center;
     }
 
-    .cards{
-        margin-top: 50px;
-        overflow: auto;
-        white-space: wrap;
+    /* .cards{
+    display: grid !important;
+    grid-template-columns: repeat (1fr );
+    margin-top: 50px;
+    box-sizing: border-box;
+    white-space: none !important; 
+    flex-direction: column !important;
+    } */
+
+    form{
+    background: white;
+    max-width: 100%;
+    border-radius: 10px;
+     width: 100%;
+    padding: 40px 20px;
+    margin: 0 auto;
+    clear: both;
+    
     }
 
 
