@@ -464,6 +464,7 @@ display: block;
         border-radius: 2px;
         justify-content: center;
         padding: 10px;
+        width: 250px;
         text-align: center;
         align-items: center;
     }
